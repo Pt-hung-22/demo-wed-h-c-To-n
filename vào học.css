@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100vw; /* Chiều rộng 100% của cửa sổ trình duyệt */
+    height: 100vh; /* Chiều cao 100% của cửa sổ trình duyệt */
+    height: 100vh;
+    background-image: url('https://thuthuatphanmem.vn/uploads/2018/08/21/hinh-nen-powerpoint-don-gian-dep-31_045407361.jpg'); /* Thay 'duong_dan_den_anh_cua_ban.jpg' bằng đường dẫn tới ảnh bạn muốn sử dụng */
+    background-size: cover; /* Đảm bảo kích thước ảnh phù hợp với kích thước phần tử */
+    background-repeat: no-repeat; /* Ngăn lặp lại hình nền */
+    height: 100vh;
+}
+button{
+    font-size: 14px;
+    padding:20px;
+    background-color: rgb(191, 236, 243);
+    border-radius: 10px;
+    
+}
+.table-chonlop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1 {
+    
+}
+.label-bai1{
+   
+    font-size: 20px;
+}
+.bai1{
+   margin:  10px 10px 0px 30px;
+   display: flex;
+
+}
+label{
+    font-size: 20px;
+    margin: 10px 20px ;
+}
+.bai1-1{
+    display: inline;
+}
+.bai1-2{
+    margin: auto;
+}
+.ketqua{
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    width: 150px;
+}
